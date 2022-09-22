@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;600&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
+
+body{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+
+header{
+    top:0;
+    left:0;
+    background-color: rgba(33,33,33,33);
+    
+}
+
+.container-fluid{
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+}
+.navergador{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 20px 0 ;
+
+}
+
+.navegador a{
+    font-family: 'Mulish', sans-serif;
+    font-size:20px;
+    padding: 30px 0px;
+    margin-left: 100px;
+    margin-right:700px;
+    
+}
+.logo{
+    font-size: 1.1rem;
+}
+/*carrito*/
+.subnav{
+
+    top:60px;
+    right:0;
+    width:300px;
+    
+}
+
+.titulo-compras{
+    font-family: 'Mulish', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    padding-top:20px;
+    
+}
+.productos-compras{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+.caja-producto{
+    position: relative;
+    padding:20px;
+}
+.caja-producto:hover{
+    padding:10px;
+    transition: 0.4s;    
+}
+.imagen-producto{
+    width: 50%;
+    height: auto;
+}
+
+.precio-producto, i{
+    padding-left:0px;
+}
+
+
+
+#agregarFavoritos{
+    border: solid 0px;
+    background-color: transparent;
+    margin-left:30px; 
+}
+
+/*  mas info correo.*/
+
+.mas-info{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px;
+}
+
+
+.titulo-mail{
+    padding: 20px;
+    font-size: 50px;
+}
+#enviarEmail{
+    padding:20px 30px;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    background-color: #fff;
+}
+#enviarEmail:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    transition:0.5s;
+}
